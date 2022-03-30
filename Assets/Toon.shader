@@ -33,7 +33,7 @@ Shader "Guidev/Toob"
             v2f vert (appdata v)
             {
                 v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
+                //o.vertex = UnityObjectToClipPos(v.vertex + 0.001);
                 return o;
             }
 
